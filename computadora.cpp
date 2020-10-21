@@ -5,23 +5,23 @@ Computadora::Computadora()
     
 }
 
-Computadora::Computadora(const string &nombre,
+Computadora::Computadora(const string &sistemaOperativo,
                         const string &marca,
                         int ram, const string &procesador)
 {
-    this->nombre = nombre;
+    this->sistemaOperativo = sistemaOperativo;
     this->marca = marca;
     this->ram =ram;
     this->procesador = procesador;
 }
 
-void Computadora::setNombre(const string &c)
+void Computadora::setSistemaOperativo(const string &c)
 {
-    nombre = c;
+    sistemaOperativo = c;
 }
-string Computadora::getNombre()
+string Computadora::getSistemaOperativo()
 {
-    return nombre;
+    return sistemaOperativo;
 }
 void Computadora::setMarca(const string &c)
 {

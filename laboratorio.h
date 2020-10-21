@@ -12,6 +12,14 @@ public:
     void agregarComputadora(const Computadora &c);
     void mostrar();
 
+    friend Laboratorio& operator>>(Laboratorio &lb, const Computadora &c)
+    {
+        lb.agregarComputadora(c);
+        
+
+        return lb;
+    }
+
 };
 
 #endif
