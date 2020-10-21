@@ -1,0 +1,4 @@
+Sistema Operativo  Marca             Ram               Procesador        
+iOS                Apple             16                Intel             
+Linux              Dell              12                Intel             
+Windows            HP                12                Intel             

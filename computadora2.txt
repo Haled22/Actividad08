@@ -1,0 +1,12 @@
+iOS
+Apple
+Intel
+16
+Linux
+Dell
+Intel
+12
+Windows
+HP
+Intel
+12
